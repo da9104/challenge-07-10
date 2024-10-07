@@ -1,0 +1,25 @@
+.goToHidden {
+    display: none;
+}
+
+.goTop {
+      display: block;
+      bottom: 5%;
+    //   left: 5%;
+      transform: translate(80%, -10%);
+
+
+      &__text {
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+        cursor: pointer;
+        text-align: center;
+        line-height: 30px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
